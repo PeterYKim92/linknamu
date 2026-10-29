@@ -19,7 +19,7 @@ export default function ProfileHeader({ name, bio, image }: Props) {
         )}
       </div>
       <h1 className="mt-5 text-2xl font-bold tracking-tight">{name}</h1>
-      <p className="mt-2 text-base text-neutral-600 dark:text-neutral-400">{bio}</p>
+      <p className="mt-2 whitespace-pre-line text-base text-neutral-600 dark:text-neutral-400">{bio}</p>
     </header>
   );
 }

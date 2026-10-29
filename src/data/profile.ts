@@ -14,8 +14,8 @@ export type Profile = {
 };
 
 export const profile: Profile = {
-  name: "김클로",
-  bio: "세계 최강 바이브코더",
+  name: "김용택",
+  bio: "비지니스 기획자\n요즘에는 AI기반의 비지니스 모델들을 구상하고 만들고 있습니다.",
   links: [
     { id: "github", title: "GitHub", url: "https://github.com", icon: "💻" },
     { id: "blog", title: "블로그", url: "https://velog.io", icon: "✍️" },
